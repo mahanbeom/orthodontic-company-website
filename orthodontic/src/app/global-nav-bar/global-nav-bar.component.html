@@ -1,3 +1,16 @@
-<div>
-    
+<div class="page fx-row a-center j-space-between">
+    <span class="font-20 font-w600">동우 BMK</span>
+    <div class="fx-row a-center gap-10">
+        
+        <button mat-button class="font-w600">회사소개</button>
+
+        <button mat-button class="font-w600" [matMenuTriggerFor]="itemDescription">제품소개</button>
+        <mat-menu #itemDescription="matMenu">
+            <button mat-menu-item>제품 1</button>
+            <button mat-menu-item>제품 2</button>
+            <button mat-menu-item>제품 3</button>
+        </mat-menu>
+
+        <button mat-button class="font-w600">고객문의</button>
+    </div>
 </div>

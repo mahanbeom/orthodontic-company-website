@@ -11,6 +11,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatTableModule } from '@angular/material/table';
+import { MatMenuModule } from '@angular/material/menu';
 
 
 const materialModules = [
@@ -23,6 +24,7 @@ const materialModules = [
     MatInputModule,
     MatDividerModule,
     MatTableModule,
+    MatMenuModule,
 ];
 
 
