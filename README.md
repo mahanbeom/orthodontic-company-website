@@ -1,2 +1,2 @@
-# orthodontic-web-site
-orthodontic web site
+# orthodontic-company-website
+orthodontic company website
